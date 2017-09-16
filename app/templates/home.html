@@ -1,1 +1,11 @@
-<h1>Home Page</h1>
+<section class="room-list">
+    <div>
+        <h2 class="page-title"> Bloc Chat </h2>
+        <h2 class="list-title">Rooms</h2>
+        <ul>
+            <li ng-repeat="room in home.rooms">
+                <a>{{ room.$value }}</a>
+            </li>
+        </ul>
+    </div>
+</section>
