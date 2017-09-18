@@ -1,6 +1,7 @@
 <section class="room-list">
-    <div>
+    <div ng-controller"NewRoomCtrl as newRoom">
         <h2 class="page-title"> Bloc Chat </h2>
+        <button class="button" type="button" ng-click="home.newRoomButton()">New Room</button>
         <h2 class="list-title">Rooms</h2>
         <ul>
             <li ng-repeat="room in home.rooms">
