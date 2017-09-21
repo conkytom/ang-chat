@@ -10,6 +10,46 @@ html {
 
 body {
     background-color: white;
-    min-height: 100%;
-    
+
+ }
+
+ .left-menu {
+     float: left;
+     background-color: lightblue;
+     width: 150px;
+
+     padding-bottom: 100%;
+
+ }
+
+ .page-title {
+     padding-left: 10px;
+ }
+
+ .button {
+     margin-left: 12px;
+ }
+
+ .list-title {
+     padding-left: 15px;
+ }
+
+ .message-container {
+     padding-left: 200px;
+
+ }
+
+ .room-title {
+     padding-left: 15px;
+     text-decoration: underline;
+ }
+
+ .message-line {
+     padding-bottom: 2px;
+     border-bottom: 1px solid gray;
+     margin-bottom: 3px
+ }
+
+ .timestamp {
+     font-size: 10px;
  }

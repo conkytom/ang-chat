@@ -2,7 +2,7 @@
     function NewRoomCtrl($uibModalInstance, Room) {
 
         this.addRoom = function() {
-        console.log(this.roomName);
+//        console.log(this.roomName);
                 Room.add(this.roomName);
                 $uibModalInstance.close();
         };
