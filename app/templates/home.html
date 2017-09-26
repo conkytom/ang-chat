@@ -20,8 +20,11 @@
     <div class="message-line" ng-repeat="message in home.messages">
         <!-- Message -->
         <div class="username">{{ message.username }}:  {{ message.content }}</div>
-        <div class="timestamp">{{ message.sentAt }}</div>
-
+        <div class="timestamp">{{ message.sentAt | date:'MM/dd/yyyy HH:mm:ss' }}</div>
+    </div>
+    <div class="newmessage-box">
+        <input type="text" name="input" placeholder="Enter a message..." class="newmessage" ng-model="home.message">
+        <button class="newmessage-btn" type="button" ng-click="home.sendMessage()">Send Message</button>
     </div>
 
 </section>
